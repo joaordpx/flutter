@@ -51,10 +51,8 @@ class _MyHomePageState extends State<MyHomePage> {
       body: Center(
         child: Container(
           color: Colors.black,
-          height: double.infinity,
           child: Row(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            // mainAxisSize: MainAxisSize.min,
+            mainAxisSize: MainAxisSize.min,
             children: [
               Container(
                 width: 100.0,
@@ -63,6 +61,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   borderRadius: BorderRadius.circular(25.0),
                   color: Colors.red,
                 ),
+                child: Center(child: Text('Quadrado')),
               ),
               Container(
                 width: 100.0,
